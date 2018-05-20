@@ -3,21 +3,21 @@
 
 A sine sweep is generated using the function,
 
-$$ x(t) = a.sin\Big(cumsum\Bigg(\frac{2\pi f}{f_s}\Bigg)\Big)$$
+![](https://latex.codecogs.com/svg.latex?%5Clarge%20x%28t%29%20%3D%20a.sin%5CBig%28cumsum%5CBigg%28%5Cfrac%7B2%5Cpi%20f%7D%7Bf_s%7D%5CBigg%29%5CBig%29)
 
 where,
 
-$ a \rightarrow $ amplitude
-$ f_s \rightarrow $ sampling frequency
-$ f \rightarrow $ vector of logarithmically spaced frequency values
+*a* &rarr; *amplitude*
+*f*<sub>*s*</sub> &rarr; *sampling frequency*
+*f* &rarr; *vector of logarithmically spaced frequency values*
 
 The default parameters are,
 
-$ a \rightarrow 0.95$
-$ f_s \rightarrow 44.1kHz $ 
-$ f \rightarrow 500Hz \ to \ 5000 Hz$
+*a* &rarr; *0.95*
+*f*<sub>*s*</scub> &rarr; *44.1kHz* 
+*f* &rarr; *500Hz to 5000 Hz*
 
-The length of the sine sweep is 1 second.
+The *length* of the sine sweep is *1 second*.
 
 The spectrogram of the sine sweep was generated using the parameters listed below using a custom function.
 
@@ -146,7 +146,7 @@ The spectrogram of the sine sweep was generated using the parameters listed belo
 
     ![](./results/e3.jpg)
 
-6. Parameters from 1 using MATLAB's $ spectrogram $ function.
+6. Parameters from 1 using MATLAB's *spectrogram* function.
 
     ![](./results/f1.jpg)
 
