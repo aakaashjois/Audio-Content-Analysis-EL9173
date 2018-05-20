@@ -8,14 +8,19 @@ A sine sweep is generated using the function,
 where,
 
 *a* &rarr; *amplitude*
+
 *f*<sub>*s*</sub> &rarr; *sampling frequency*
+
 *f* &rarr; *vector of logarithmically spaced frequency values*
 
 The default parameters are,
 
 *a* &rarr; *0.95*
+
 *f*<sub>*s*</scub> &rarr; *44.1kHz* 
+
 *f* &rarr; *500Hz to 5000 Hz*
+
 
 The *length* of the sine sweep is *1 second*.
 
