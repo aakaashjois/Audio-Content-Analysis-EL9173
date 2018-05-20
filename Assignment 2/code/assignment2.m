@@ -7,13 +7,13 @@ medfilt_len = 8;
 offset = 0.01;
 %%
 % Plot for 'PianoDebussy' audio file
-filepath = 'PianoDebussy.wav';
+filepath = '../audio/PianoDebussy.wav';
 create_novelty_plots(filepath, win_size, hop_size, w_c, medfilt_len, offset);
 %%
 % Plot for 'female_short' audio file
-filepath = 'female_short.wav';
+filepath = '../audio/female_short.wav';
 create_novelty_plots(filepath, win_size, hop_size, w_c, medfilt_len, offset);
 %%
 % Plot for 'sewing-machine_short' audio file
-filepath = 'sewing-machine_short.wav';
+filepath = '../audio/sewing-machine_short.wav';
 create_novelty_plots(filepath, win_size, hop_size, w_c, medfilt_len, offset);
