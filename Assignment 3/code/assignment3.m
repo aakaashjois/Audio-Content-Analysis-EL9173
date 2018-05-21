@@ -1,10 +1,10 @@
 % Initializing predefined values
-piano_train = 'piano_train.wav';
-piano_test = 'piano_test.wav';
-trombone_train = 'trombone_train.wav';
-trombone_test = 'trombone_test.wav';
-trumpet_train = 'trumpet_train.wav';
-trumpet_test = 'trumpet_test.wav';
+piano_train = '../audio/piano_train.wav';
+piano_test = '../audio/piano_test.wav';
+trombone_train = '../audio/trombone_train.wav';
+trombone_test = '../audio/trombone_test.wav';
+trumpet_train = '../audio/trumpet_train.wav';
+trumpet_test = '../audio/trumpet_test.wav';
 params.win_size = 1024;
 params.hop_size = 512;
 params.min_freq = 86;
